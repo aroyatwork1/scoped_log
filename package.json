@@ -1,5 +1,5 @@
 {
-  "name": "scoped-log",
+  "name": "log-obj-json",
   "version": "0.0.1",
   "description": "This module helps in creating log objects scoped to application, module and methods. CPU and memory parameters are provided  on demand",
   "main": "log_obj.js",
@@ -11,7 +11,11 @@
     "cpu",
     "memory"
   ],
-  "author": "cool_denim",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aroyatwork1/scoped_log"
+  },
+  "author": "cool_denim <aroyatwork@protonmail.com>",
   "license": "MIT",
   "dependencies": {
     "node-os-utils": "^1.3.5"
