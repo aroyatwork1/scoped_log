@@ -21,7 +21,7 @@ npm i log-obj-json
 Below is given an example, which demonstrates the intent of the usage.
 ```sh
 const scoped_log = require("scoped_log");
-const flowObj = scoped_log.getFlowLogObj('--**--', "ADD_BY_IP", "edge_gw");
+const flowObj = scoped_log.getFlowLogObj('--**--', "some-flow-name", "some-m-svc");
 const flowModuleObj = scoped_log.getModuleLogObj(flowObj, "somefile.js");
 
 setInterval(async () => {	
