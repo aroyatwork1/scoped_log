@@ -20,7 +20,7 @@ npm i log-obj-json
 ## How to use
 Below is given an example, which demonstrates the intent of the usage.
 ```sh
-const scoped_log = require("scoped_log");
+const scoped_log = require("log-obj-json");
 const flowObj = scoped_log.getFlowLogObj('--**--', "some-flow-name", "some-m-svc");
 const flowModuleObj = scoped_log.getModuleLogObj(flowObj, "somefile.js");
 
