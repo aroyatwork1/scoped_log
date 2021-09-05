@@ -1,6 +1,6 @@
 {
   "name": "log-obj-json",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "This module helps in creating log objects scoped to application, module and methods. CPU and memory parameters are provided  on demand",
   "main": "log_obj.js",
   "scripts": {
