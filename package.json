@@ -12,5 +12,8 @@
     "memory"
   ],
   "author": "cool_denim",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "node-os-utils": "^1.3.5"
+  }
 }
