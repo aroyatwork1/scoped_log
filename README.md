@@ -18,6 +18,11 @@ npm i log-obj-json
 ```
 
 ## How to use
+The intent of this package is to provide a common logging object, which can be created and used at different levels of abstraction.
+Generally speaking, We may want to put debug logs for a certain flow starting from the application's main entry point, like app.js and we
+need to have the same flow traced through all the routes, middleware(s), controller, service, and other helper functions. The idea is to create a global flow object in app.js and use it to create more and more specific objects for logging as the flow trickles from the application entry point to the last method that you want the flow to be traced. This allows re-use and a minimal number of logging objects to get created.
+
+
 Below is given an example, which demonstrates the intent of the usage.
 ```sh
 const scoped_log = require("log-obj-json");
